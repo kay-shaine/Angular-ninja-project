@@ -1,0 +1,22 @@
+
+<p>{{homeTitle}}</p>
+<p>{{ninja.name}}</p>
+<p>{{ninja.belt}}</p>
+<!-- <ng-content></ng-content> -->
+
+<!-- This is exactly what i search online to enable ngModel work -->
+
+
+<!-- property binding -->
+<!-- <input value="{{myString}}" />
+<input required = "{{myBoolean}}" />
+<button (click)="alertMe('I like beef')" >Click here </button> -->
+
+<!-- 2 - way data binding -->
+<label>Name:</label>
+<input [(ngModel)]="ninja.name" />
+<label>Belt:</label>
+<input [(ngModel)]="ninja.belt" />
+<p>{{ninja.name}}</p>
+<p>{{ninja.name}}</p>
+<p>{{ninja.belt}}</p>
