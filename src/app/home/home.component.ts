@@ -8,12 +8,12 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   homeTitle = "Welcome to the ninja directory.......";
-  // @Input() ninja: any;
+  @Input() ninja: any;
 
-  ninja = {
-    name: "Tolani",
-    belt: "Black"
-  };
+  // ninja = {
+  //   name: "Tolani",
+  //   belt: "Black"
+  // };
 
   // myString = "I like chicken";
   // myBoolean = false;

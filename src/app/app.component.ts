@@ -11,8 +11,8 @@ export class AppComponent {
   title = 'angular-ninja-project ';
   name = 'Ninja';
 
-  // ninja = {
-  //   name: "Tolani",
-  //   belt: "Black"
-  // };
+  ninja = {
+    name: "Tolani",
+    belt: "Black"
+  };
 }
