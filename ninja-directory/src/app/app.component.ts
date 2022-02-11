@@ -15,4 +15,8 @@ export class AppComponent {
     name: "Tolani",
     belt: "Black"
   };
+
+  yell(e: any){
+    alert("I am yelling");
+  }
 }
